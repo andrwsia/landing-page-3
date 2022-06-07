@@ -18,7 +18,7 @@ window.onscroll = function() {
   }
 };
 
-// ---- //
+// -- Activate hamburger button -- //
 
 var mobileBtn = document.getElementsByClassName('header-mobile__btn')
 var mobileMenu = document.getElementsByClassName('header-mobile__menu')
@@ -30,7 +30,7 @@ mobileBtn[0].addEventListener('click', clickedBtn)
 
 console.log(mobileBtn[0])
 
-// ---- //
+// -- Hamburger button animation-- //
 
 var icon = document.getElementById("icon");
 var icon1 = document.getElementById("a");
@@ -43,7 +43,7 @@ icon.addEventListener('click', function() {
   icon3.classList.toggle('b');
 });
 
-// ---- //
+// -- Activate slider-- //
 
 var slider = document.getElementById("range");
 var output = document.getElementById("demo");
