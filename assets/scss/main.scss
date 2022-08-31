@@ -320,7 +320,7 @@
                     align-self: flex-start;
                     border-radius: 25px;
                     background-image: url('https://i.imgur.com/hNMWr6V.jpg');
-                    background-size: 750px;
+                    background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center left;
                 }
@@ -334,7 +334,7 @@
                     align-self: flex-end;
                     border-radius: 25px;
                     background-image: url('https://i.imgur.com/hNMWr6V.jpg');
-                    background-size: 750px;
+                    background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center bottom;
                 }
@@ -348,7 +348,7 @@
                     align-self: flex-start;
                     border-radius: 25px;
                     background-image: url('https://i.imgur.com/hNMWr6V.jpg');
-                    background-size: 750px;
+                    background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center right;
                 }
@@ -1581,12 +1581,13 @@
 // TESTIMONIAL-SECTION START //
 .testimonial-section {
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     height: 100%;
     width: 100%;
 
     .testimonial-section__container {
         padding: 0px 15px;
+        margin-bottom: 40px;
 
         .testimonial-section__row {
             .testimonial-section__col {
